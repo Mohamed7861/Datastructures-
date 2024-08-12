@@ -1,0 +1,35 @@
+#include<iostream>
+
+using namespace std;
+
+void swit(int *x,int *y){
+
+ int n;
+
+ n=*y;
+
+ *y=*x;
+
+ *x=n;
+
+ //return(x,y);
+
+ cout<<"x now is::"<<*x<<endl<<"y now is::"<<*y;
+
+ }
+
+int main()
+
+{
+
+int a=5;
+
+int b=7;
+
+swit(&a,&b);
+
+    
+
+    return 0;
+
+}
