@@ -1,18 +1,18 @@
 #include<iostream>
 using namespace std;
- void record (int a[]){
-int sum=0;
-int avg=0;
+ void record (int a[],int s){
+ int avg=0;
+ int sum=0;
  for(int i=0;i<=9;i++){
- sum=sum[i]+sum;
+ sum=a[i]+sum;
  }
-avg= sum/s;
-cout<<avg;
+ avg=sum/s;
+ cout<<avg;
  }
 int main()
 {
 int a[10]{2,6,8,9,1,3,4,7,4,5};
-record(a);
+record(a,10);
     
     
     
